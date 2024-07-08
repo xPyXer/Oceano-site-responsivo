@@ -1,13 +1,12 @@
 # Site responsivo com o tema Oceano!
 Feito em HTML, CSS e JAVASCRIPT
 
-Imagens:
-Tela principal
-![image2](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/d893de6a-abbb-4124-947f-6558e31a4a04)
-![image1](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/d271eca4-d280-4da7-b2ce-e216e0bac3a0)
-![image4](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/d9f5ee12-270b-4038-a5f8-9066941b2338)
-![image3](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/45d80bbb-ab32-415a-89c1-d565e7b97fdb)
+# Tela principal
+![image1](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/2966e082-2631-4d62-ba40-b7bc4f24ae0c)
+![image2](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/0b8c2e81-af9d-48c7-8551-e72532a7e0a6)
+![image3](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/5378db65-8fc9-4887-bdc4-a3c861d2ae55)
+![image4](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/983d39d4-67df-4880-bd58-f1b1c2ca3a0c)
 
-Página de Login:
-![image5](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/4e41a908-dabf-4022-97d6-4973213b253a)
-![image6](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/4dbb81bf-226f-41e7-9d2a-3f7da1ce3024)
+# Página de Login:
+![image5](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/bc220fca-d1b7-40b8-81b1-5044fb8cdb92)
+![image6](https://github.com/xPyXer/Oceano-site-responsivo/assets/88254638/0080c7fd-0e72-408c-b82e-f728d9e80e49)
