@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Login</title>
+    <!-- Link do Font Awesome CDN para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Link do arquivo CSS personalizado -->
+    <link rel="stylesheet" href="/css/login.css">
+        <!-- Link do arquivo ICO personalizado -->
+    <link rel="icon" href="/img/oceano.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <!-- Logo com ícone -->
+        <a href="/html/page.html" class="logo"><i class="fas fa-water"></i>Blue</a>
+        <!-- Navegação -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="/html/page.html#about">Sobre</a></li>
+                <li><a href=/html/page.html#service">Objetivos</a></li>
+                <li><a href="/html/page.html#benefits">Benefícios</a></li>
+                <li><a href="/html/page.html#donate">Ajude</a></li>
+                <li><a href="/html/login.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- Ícone de menu para dispositivos móveis -->
+        <div class="fas fa-bars"></div>
+    </header>
+
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+        
+        <div class="registrar">
+            <form>
+                <label for="chk" aria-hidden="true">Registrar</label>
+                <input type="text" name="txt" placeholder="Usuário" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="Password" name="pass" placeholder="Senha" required="">
+                <button id="bntRes">Registrar</button>
+            </form>
+        </div>
+
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Entrar</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="Password" name="pass" placeholder="Senha" required="">
+                <button>Entrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

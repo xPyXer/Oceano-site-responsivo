@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --blue: #036197; /* Define a cor azul como uma variável CSS */
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0; /* Remove margens e preenchimentos padrão */
+    box-sizing: border-box; /* Inclui bordas no cálculo do tamanho total do elemento */
+    text-decoration: none;
+    transition: all .5s cubic-bezier(.37,1.14,.26,1.24); /* Aplica uma transição suave a todas as propriedades */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #023e8a, #0077b6, #eff6e0);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3); /* Sombra leve */
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000; /* Mantém o cabeçalho no topo */
+    padding: 1rem 5rem;
+    width: 100%;
+}
+
+header .logo {
+    color: var(--blue);
+    font-size: 2.2rem;
+}
+
+header .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none; /* Remove marcadores de lista */
+}
+
+header .navbar ul li {
+    margin: 0 1rem;
+}
+
+header .navbar ul li a {
+    font-size: 2rem;
+    color: #666;
+}
+
+header .navbar ul li a:hover {
+    color: var(--blue);
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #666;
+    cursor: pointer;
+    display: none; /* Oculto por padrão, exibido em dispositivos móveis */
+}
+
+
+.main {
+    width: 350px;
+    height: 500px;
+    background: #1e6091;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+#chk {
+    display: none;
+}
+
+.registrar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    color: #222;
+    font-size: 2.7rem;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+    background: #fff;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 4px 12px #000;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #222;
+    background: var(--blue);
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+#bntRes {
+    background: #2541b2;
+    color: #fff;
+}
+#bntRes:hover {
+    background: var(--blue);
+    color: #222;
+}
+
+button:hover {
+    background: #2541b2;
+    color: #fff;
+}
+.login {
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+
+.login label {
+    color: #555;
+    transform: scale(.6);
+}
+
+#chk:checked ~ .login {
+    transform: translateY(-500px);
+}
+#chk:checked ~ .login label {
+    transition: scale(1);
+}
+#chk:checked ~ .registrar label {
+    transition: scale(.6);
+} 
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: fixed;
+        top: -100rem; left: 0;
+        width: 100%;
+        border-top: .1rem solid #ccc;
+        opacity: 0;
+    }
+
+    header .navbar ul {
+        flex-flow: column;
+        padding: 2rem 0;
+        background-color: #fff;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    header .navbar ul li a {
+        font-size: 3rem;
+        display: block;
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+    header .nav-toggle {
+        top: 6rem;
+        opacity: 1;
+    }
+
+}
+
